@@ -12,7 +12,7 @@ public class 解释 {
         System.out.println(date);//检测一下date
         Calendar cal=new GregorianCalendar();//创建一个日历
         cal.setTime(date);//setTime设置时间
-        cal.add(cal.DAY_OF_MONTH,1);//根据日历的规则，为给定的日历字段添加或减去指定的时间量。
+        cal.add(Calendar.DAY_OF_MONTH,1);//根据日历的规则，为给定的日历字段添加或减去指定的时间量。
         date=cal.getTime();//重新赋值给date
         System.out.println(date);//检查date
         /*
