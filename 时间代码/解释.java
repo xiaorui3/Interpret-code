@@ -72,7 +72,7 @@ System.out.println("当前月有"+instance.getActualMaximum(Calendar.WEEK_OF_MON
 
 方法
 
- abstract void  add(int field, int amount)
+ ----------------------abstract void  add(int field, int amount)
           根据日历的规则，为给定的日历字段添加或减去指定的时间量。
  boolean    after(Object when)
           判断此 Calendar 表示的时间是否在指定 Object 表示的时间之后，返回判断结果。
@@ -84,15 +84,15 @@ System.out.println("当前月有"+instance.getActualMaximum(Calendar.WEEK_OF_MON
           将此 Calendar 的给定日历字段值和时间值（从历元至现在的毫秒偏移量）设置成未定义。
  Object clone()
           创建并返回此对象的一个副本。
- int    compareTo(Calendar anotherCalendar)
+ ----------------------int    compareTo(Calendar anotherCalendar)
           比较两个 Calendar 对象表示的时间值（从历元至现在的毫秒偏移量）。"此函数返回值为三个,分别为-1,0,1;-1指的是当前Calendar比anotherCalendar的时间早,0指的是时间相同,1指的是比anotherCalendar时间晚"
- boolean    equals(Object obj)
+ ----------------------boolean    equals(Object obj)
           将此 Calendar 与指定 Object 比较。
- int    get(int field)
+ ----------------------int    get(int field)
           返回给定日历字段的值。
- int    getActualMaximum(int field)
+ ----------------------int    getActualMaximum(int field)
           给定此 Calendar 的时间值，返回指定日历字段可能拥有的最大值。
- int    getActualMinimum(int field)
+ ----------------------int    getActualMinimum(int field)
           给定此 Calendar 的时间值，返回指定日历字段可能拥有的最小值。
 static Locale[] getAvailableLocales()
           返回所有语言环境的数组，此类的 getInstance 方法可以为其返回本地化的实例。
@@ -104,7 +104,7 @@ static Locale[] getAvailableLocales()
           获取一星期的第一天；例如，在美国，这一天是 SUNDAY，而在法国，这一天是 MONDAY。
 abstract  int   getGreatestMinimum(int field)
           返回此 Calendar 实例给定日历字段的最高的最小值。
-static Calendar getInstance()
+----------------------static Calendar getInstance()
           使用默认时区和语言环境获得一个日历。
 static Calendar getInstance(Locale aLocale)
           使用默认时区和指定语言环境获得一个日历。
@@ -114,13 +114,13 @@ static Calendar getInstance(TimeZone zone, Locale aLocale)
           使用指定时区和语言环境获得一个日历。
 abstract  int   getLeastMaximum(int field)
           返回此 Calendar 实例给定日历字段的最低的最大值。
-abstract  int   getMaximum(int field)
+----------------------abstract  int   getMaximum(int field)
           返回此 Calendar 实例给定日历字段的最大值。
  int    getMinimalDaysInFirstWeek()
           获取一年中第一个星期所需的最少天数，例如，如果定义第一个星期包含一年第一个月的第一天，则此方法将返回 1。
 abstract  int   getMinimum(int field)
           返回此 Calendar 实例给定日历字段的最小值。
- Date   getTime()
+ ----------------------Date   getTime()
           返回一个表示此 Calendar 时间值（从历元至现在的毫秒偏移量）的 Date 对象。
  long   getTimeInMillis()
           返回此 Calendar 的时间值，以毫秒为单位。
@@ -150,7 +150,7 @@ abstract  void  roll(int field, boolean up)
           指定日期/时间解释是否是宽松的。
  void   setMinimalDaysInFirstWeek(int value)
           设置一年中第一个星期所需的最少天数，例如，如果定义第一个星期包含一年第一个月的第一天，则使用值 1 调用此方法。
- void   setTime(Date date)
+ ----------------------void   setTime(Date date)
           使用给定的 Date 设置此 Calendar 的时间。
  void   setTimeInMillis(long millis)
           用给定的 long 值设置此 Calendar 的当前时间值。
