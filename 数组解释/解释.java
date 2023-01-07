@@ -42,7 +42,8 @@ public class Test {
         System.out.println(Arrays.toString(arrB));
     }
 }
-4、Arrays.fill(int[] a, int val)/Arrays.fill(int[] a, int fromIndex, int toIndex, int val)填充数组
+4、Arrays.fill(int[] a, int val)/Arrays.fill(int[] a, int fromIndex, int toIndex, int val)
+* 填充数组
 
 import java.util.Arrays;
 public class Test {

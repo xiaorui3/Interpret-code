@@ -12,7 +12,7 @@ public class Byte类 {
     String my_byte = "5";
     Byte b = new Byte(my_byte);
 
-    注意：必须使用数值型的 String 变量作为参数才能创建成功，否则会抛出 NumberFormatException 异常。
+    注意：必须使用数值型的 String 变量作为参数才能创建成功，否则会抛出 NumberFormatException 代码解释.异常。
     Byte 类的常用方法
     在 Byte 类内部包含了一些和 Byte 操作有关的方法，见表 1。
 
