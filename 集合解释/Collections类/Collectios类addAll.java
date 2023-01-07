@@ -1,4 +1,4 @@
-package 代码解释.集合解释;
+package 代码解释.集合解释.Collections类;
 
 import java.util.ArrayList;
 import java.util.Collections;
