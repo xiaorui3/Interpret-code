@@ -20,7 +20,8 @@ public class finally类 {
                 System.out.println("正在运行程序[" + pros[no - 1] + "]");
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("6");
+            //e.printStackTrace();
         } finally {
             System.out.println("谢谢使用!");
         }
