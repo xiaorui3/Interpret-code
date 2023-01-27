@@ -22,19 +22,21 @@ public class Collectios类设置不可变集合 {
         unmodifiableList.add("测试元素");
         unmodifiableSet.add("测试元素");
         unmodifiableMap.put("语文",90);
-/*        5.1、方法
-　　1）emptyXxx()
-
-　　　　 返回一个空的、不可变的集合对象，此处的集合既可以是List，也可以是Set，还可以是Map。
-
-　　2）singletonXxx():
-
-　　　　返回一个只包含指定对象（只有一个或一个元素）的不可变的集合对象，此处的集合可以是：List，Set，Map。
-
-　　3）unmodifiableXxx():
-
-　　　　返回指定集合对象的不可变视图，此处的集合可以是：List，Set，Map。
-
-　　上面三类方法的参数是原有的集合对象，返回值是该集合的”只读“版本。*/
+/**
+ *        5.1、方法
+ * 　　1）emptyXxx()
+ *
+ * 　　　　 返回一个空的、不可变的集合对象，此处的集合既可以是List，也可以是Set，还可以是Map。
+ *
+ * 　　2）singletonXxx():
+ *
+ * 　　　　返回一个只包含指定对象（只有一个或一个元素）的不可变的集合对象，此处的集合可以是：List，Set，Map。
+ *
+ * 　　3）unmodifiableXxx():
+ *
+ * 　　　　返回指定集合对象的不可变视图，此处的集合可以是：List，Set，Map。
+ *
+ * 　　上面三类方法的参数是原有的集合对象，返回值是该集合的”只读“版本。
+ */
     }
 }

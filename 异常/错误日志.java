@@ -13,9 +13,10 @@ public class 错误日志 {
         log.info("info");
         log.warning("warning");
         log.severe("server");
-/*
-级别	SEVERE	WARNING	INFO	CONFIG	FINE	FINER	FINEST
-调用方法	severe()	warning()	info()	config()	fine()	finer()	finest()
-含义	严重	警告	信息	配置	良好	较好	最好*/
+/**
+ * 级别	SEVERE	WARNING	INFO	CONFIG	FINE	FINER	FINEST
+ * 调用方法	severe()	warning()	info()	config()	fine()	finer()	finest()
+ * 含义	严重	警告	信息	配置	良好	较好	最好
+ */
     }
 }

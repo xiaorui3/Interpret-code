@@ -3,22 +3,15 @@ package 代码解释.时间代码;
 import java.util.Scanner;
 import java.util.Date;
 public class Date类 {
-/*    1.构造方法:
-    Date()：
-    Date(long date)：指定的时间
-    Date date1 = new Date();    // 调用无参数构造函数
-    System.out.println(date1.toString());    // 输出：Wed May 18 21:24:40 CST 2016
-    Date date2 = new Date(60000);    // 调用含有一个long类型参数的构造函数
-    System.out.println(date2);    // 输出：Thu Jan 0108:01:00 CST 1970
-    */
-/*方法	描述
-    boolean after(Date when)	判断此日期是否在指定日期之后
-    boolean before(Date when)	判断此日期是否在指定日期之前
-    int compareTo(Date anotherDate)	比较两个日期的顺序
-    boolean equals(Object obj)	比较两个日期的相等性
-    long getTime()	返回自 1970 年 1 月 1 日 00:00:00 GMT 以来，此 Date 对象表示的毫秒数
-    String toString()	把此 Date 对象转换为以下形式的 String: dow mon dd hh:mm:ss zzz yyyy。
-    其中 dow 是一周中的某一天(Sun、Mon、Tue、Wed、Thu、Fri 及 Sat)*/
+    /**
+     * 1.构造方法:
+     *     Date()：
+     *     Date(long date)：指定的时间
+     *     Date date1 = new Date();    // 调用无参数构造函数
+     *     System.out.println(date1.toString());    // 输出：Wed May 18 21:24:40 CST 2016
+     *     Date date2 = new Date(60000);    // 调用含有一个long类型参数的构造函数
+     *     System.out.println(date2);    // 输出：Thu Jan 0108:01:00 CST 1970
+     *     */
 
 
     /*详细看解释txt*/

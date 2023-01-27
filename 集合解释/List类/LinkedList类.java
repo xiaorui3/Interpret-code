@@ -4,14 +4,18 @@ import java.util.LinkedList;
 
 public class LinkedList类 {
     LinkedList<Integer> link=new LinkedList<>();
-/*    方法名称	说明
-    void addFirst(E e)	将指定元素添加到此集合的开头
-    void addLast(E e)	将指定元素添加到此集合的末尾
-    E getFirst()	返回此集合的第一个元素
-    E getLast()	返回此集合的最后一个元素
-    E removeFirst()	删除此集合中的第一个元素
-    E removeLast()	删除此集合中的最后一个元素*/
-public static void main(String[] args) {
+
+    /**
+     *  方法名称	说明
+     *     void addFirst(E e)	将指定元素添加到此集合的开头
+     *     void addLast(E e)	将指定元素添加到此集合的末尾
+     *     E getFirst()	返回此集合的第一个元素
+     *     E getLast()	返回此集合的最后一个元素
+     *     E removeFirst()	删除此集合中的第一个元素
+     *     E removeLast()	删除此集合中的最后一个元素
+     * @param args
+     */
+    public static void main(String[] args) {
     LinkedList<String> products = new LinkedList<String>(); // 创建集合对象
     String p1 = new String("六角螺母");
     String p2 = new String("10A 电缆线");
